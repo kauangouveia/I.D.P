@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #dce3ed;
 }
 /* Estilizando menu */
 #BarraMenu{
@@ -63,7 +63,7 @@ a{
 }
 
 li:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     transition: 2s;
 }
 ul li:hover{
@@ -94,15 +94,15 @@ section{
 #Informacoes{
     width: 50%;
     height: 785px;
-    background-color: rgb(0, 0, 0);
+    background-color: #dce3ed;
     padding-left: 20px;
     float: left;
 }   
 h1{ 
-    font-family: Arial;
+    font-family: Impact, fantasy;
     font-size: 80px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 10px;
 
 }
@@ -110,12 +110,13 @@ h1:hover{
     background-color: rgb(255, 175, 4);
     transition: 2s;
     color: black;
+    
 }
 h2{
-    font-family: fantasy;
+    font-family: Impact, fantasy;
     font-size: 50px;
     margin-bottom: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 h2:hover{
     background-color: rgb(255, 175, 4);
@@ -123,10 +124,11 @@ h2:hover{
     color: black;
 }
 h3{
-    font-family: monospace;
-    font-size: 30px;
+    font-family: Impact, fantasy;
+    font-size: 40px;
     margin-bottom: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-family: Impact, fantasy;
 } 
 h3:hover{
     background-color: rgb(255, 175, 4);
@@ -138,7 +140,7 @@ p{
     font-size: 21px;
     text-align: justify;
     padding-right: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 p:hover{
@@ -164,6 +166,7 @@ button{
     background-image: url(imagens/teste2.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #dce3ed;
 
 }
 /* rodapé */
