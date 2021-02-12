@@ -15,7 +15,7 @@ body{
     position: fixed;
     margin-bottom: 30px;
     z-index: 999;
-    
+    border-radius: 3%;  
     
 }
 #Logo{
@@ -66,10 +66,12 @@ a{
 li:hover{
     background-color: #a4bad2;
     transition: 2s;
+    box-shadow:1px 7px 5px rgba(0, 0, 0, 0.77);
 }
 ul li:hover{
     background-color: #a4bad2;
     transition: 2s;
+    
 }
 ul li{
    opacity: 0px;
@@ -97,7 +99,11 @@ li:hover>ul li{
     width: 100%;
     height: 300px;
     background-color: #001854;
-    padding: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3%;
+    box-shadow:1px 7px 5px rgba(0, 0, 0, 0.77);
 }
 #Titulo1{
     width: inherit;
@@ -119,9 +125,14 @@ li:hover>ul li{
 }
 #Texto2{
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: #001854;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3%;
+    box-shadow:1px 7px 5px rgba(0, 0, 0, 0.77);
+
 }
 p{
     font-family: monospace;
@@ -137,28 +148,33 @@ iframe{
 /* rodapé */
 #rodape{
     width: 100%;
-    height: 60px;
+    height: 75px;
     background-color: #a4bad2;
+    border-radius: 5%;
 }
 #redesWhats img{
-    width: 60px;
+    width:  75px;
     height: inherit;
     float: left;
     margin-left: 25px;
 }
 #redesInsta img{
-    width: 80px;
+    width: 70px;
     height: inherit;
     float: left;
+    margin-top: 3px;
+    
 }
 #Direitos{
-    width: 200px;
+    width: 600px;
     height: inherit;
-    margin-left: 400px;
+    margin-left: 450px;
     float: left;
+    padding: 25px;
+
 }
 #logoRodape{
-    width: 60px;
+    width: 65px;
     height: inherit;
     float: right;
     background-image: url(imagens/logo-sem-fundo-p.png);

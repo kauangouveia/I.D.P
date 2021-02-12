@@ -4,15 +4,37 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #0e2a4a;
+    background-color:#001854;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: green;
+
+}
+#containerMenu{
+    background-color: #a4bad2;
+}
+.conteudo{
+    width: 1800px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;;
+}
+#sessao{
+    background-color: #001854;
+}
+
+#barrafinal{
+    background-color: #a4bad2;
 }
 /* Estilizando menu */
 #BarraMenu{
-    width: 100%;
+    width: inherit;
     height: 65px;
     background-color: #a4bad2;
     /*display: flex;*/
-    position: fixed;
+    /* position: fixed; */
     margin-bottom: 30px;
     z-index: 999;
     
@@ -85,11 +107,11 @@ li:hover>ul li{
 
 /* Iniciando estilização de conteudo */
 section{
-    width: 100%;
+    width: inherit;
     height: 850px;
-    background-color: blue;
     padding-top: 65px;
     /*display: flex;*/
+    background-color: #001854;
 
 }
 #Informacoes{
@@ -173,28 +195,33 @@ button{
 /* rodapé */
 #rodape{
     width: 100%;
-    height: 60px;
-    background-color: #a4bad2;
+    height: 75px;
+    background-color: a4bad2;
+    border-radius: 5%;
 }
 #redesWhats img{
-    width: 60px;
+    width:  75px;
     height: inherit;
     float: left;
     margin-left: 25px;
 }
 #redesInsta img{
-    width: 80px;
+    width: 70px;
     height: inherit;
     float: left;
+    margin-top: 3px;
+    
 }
 #Direitos{
-    width: 200px;
+    width: 600px;
     height: inherit;
-    margin-left: 400px;
+    margin-left: 450px;
     float: left;
+    padding: 25px;
+
 }
 #logoRodape{
-    width: 60px;
+    width: 65px;
     height: inherit;
     float: right;
     background-image: url(imagens/logo-sem-fundo-p.png);
