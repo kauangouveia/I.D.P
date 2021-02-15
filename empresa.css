@@ -4,23 +4,30 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #51ff00
+    background-color: #ffd900
 }
 .container{
     width: 100%;
     height: auto;
-    background-color: #00ffdd;
+    background-color: #001854;
 }
 #containerMenu{
     background-color: #a4bad2;
 }
 .conteudo{
-    width: 1400px;
+    width: 1300px;
     height: auto;
     margin-right: auto;
     margin-left: auto;
 }
-/* menu */
+.imagem{
+    width: 100%;
+    height: inherit;
+}
+#barrafinal{
+    background-color: #a4bad2;
+}
+/* Estilizando menu */
 #BarraMenu{
     width: inherit;
     height: 65px;
@@ -79,7 +86,6 @@ li:hover{
 ul li:hover{
     background-color: #a4bad2;
     transition: 2s;
-    
 }
 ul li{
    opacity: 0px;
@@ -90,49 +96,5 @@ ul li{
 li:hover>ul li{
     opacity: 10;
     visibility: visible;
-    
 }
 /* Fim da estilização do menu dropdown */
-
-/* Conteudo */
-#AreaProfessores{
-    width: inherit;
-    height: 700px;
-    background-color: #000000;
-}
-#Professor1{
-    width: inherit;
-    height: 50%;
-    background-color: #ff0000;
-}
-#Professor2{
-    width: inherit;
-    height: 50%;
-    background-color: #2f00ff;
-}
-#FotoProfessor1{
-    width: 35%;
-    height: 100%;
-    background-color: blueviolet;
-    border-radius: 90%;
-    float: left;
-}
-#TextoProfessor1{
-    width: 65%;
-    height: 50%;
-    background-color: #ffee00;
-    float: left;
-}
-#FotoProfessor2{
-    width: 35%;
-    height: 100%;
-    background-color: blueviolet;
-    border-radius: 90%;
-    float: left;
-}
-#TextoProfessor2{
-    width: 65%;
-    height: 50%;
-    background-color: #ffee00;
-    float: left;
-}
