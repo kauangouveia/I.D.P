@@ -4,30 +4,30 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#ff00ff;
+    background-color:#001854;
 }
 .container{
     width: 100%;
     height: auto;
-    background-color: rgb(238, 255, 0);
+    background-color: #a4bad2
 }
 
 #containerMenu{
-    background-color: #00ff15;
+    background-color: #a4bad2;
 }
 .conteudo{
     width: 1300px;
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    background-color: black;
+    background-color: #a4bad2;
 }
 #sessao{
-    background-color: #00fff2;
+    background-color: #001854;
 }
 
 #barrafinal{
-    background-color: #ff0000;
+    background-color: #a4bad2;
 }
 /* Estilizando menu */
 #BarraMenu{
@@ -111,7 +111,6 @@ section{
     width: inherit;
     height: 850px;
     padding-top: 65px;
-    /*display: flex;*/
     background-color: #001854;
 
 }

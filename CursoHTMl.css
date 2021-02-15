@@ -136,7 +136,21 @@ iframe{
     width: inherit;
     height: inherit;
 }
-
+p{
+    color: white;
+    font-family: monospace;
+    font-size: 21px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+h1{ 
+    font-family: Impact, fantasy;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding-right: 75px;
+}
 /* rodapé */
 #rodape{
     width: 100%;

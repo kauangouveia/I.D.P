@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ffd900
+    background-color: #001854;
 }
 .container{
     width: 100%;
@@ -96,5 +96,78 @@ ul li{
 li:hover>ul li{
     opacity: 10;
     visibility: visible;
+    position: relative; /* O PROBLEMA ERA SÓ A POSIÇÃO QUE O ELEMENTO ASSUMIA*/
+    z-index: 999;       /* EU NÃO LEMBRAVA COMO USAVA, MAS AGORA SIM*/
 }
 /* Fim da estilização do menu dropdown */
+/* conteudo */
+#SobreNós{
+    height: 700px;
+    width: inherit;
+    background-color: #001854;
+}
+#teste{
+    height: 100%;
+    width: inherit;
+
+}
+#LogoEmpresa{
+    height: inherit;
+    width: 50%;
+    background: #000000;
+    background-image: url(imagens/teste2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+#TextoSobreEmpresa{
+    height: inherit;
+    width: 50%;
+    background: #001854;
+    float: left;
+}
+p{
+    color: white;
+    font-family: monospace;
+    font-size: 21px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding-top: 170px;
+}
+/* rodapé */
+#rodape{
+    width: 100%;
+    height: 75px;
+    background-color: #a4bad2;
+
+}
+#redesWhats img{
+    width:  75px;
+    height: inherit;
+    float: left;
+    margin-left: 25px;
+}
+#redesInsta img{
+    width: 70px;
+    height: inherit;
+    float: left;
+    margin-top: 3px;
+    
+}
+#Direitos{
+    width: 600px;
+    height: inherit;
+    margin-left: 450px;
+    align-items: center;
+    padding-top: 25px;
+}
+#logoRodape{
+    width: 65px;
+    height: inherit;
+    float: right;
+    background-image: url(imagens/logo-sem-fundo-p.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

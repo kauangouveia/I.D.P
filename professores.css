@@ -4,21 +4,24 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #51ff00
+    background-color: #001854;
 }
 .container{
     width: 100%;
     height: auto;
-    background-color: #00ffdd;
+    background-color: #001854;
 }
 #containerMenu{
     background-color: #a4bad2;
 }
 .conteudo{
-    width: 1400px;
+    width: 1300px;
     height: auto;
     margin-right: auto;
     margin-left: auto;
+}
+#barrafinal{
+    background-color: #a4bad2;
 }
 /* menu */
 #BarraMenu{
@@ -74,12 +77,11 @@ a{
 
 li:hover{
     background-color: #a4bad2;
-    transition: 2s;
+    transition: .3s;
 }
 ul li:hover{
     background-color: #a4bad2;
-    transition: 2s;
-    
+    transition: .3s;
 }
 ul li{
    opacity: 0px;
@@ -90,49 +92,99 @@ ul li{
 li:hover>ul li{
     opacity: 10;
     visibility: visible;
-    
+    position: relative;
+    z-index: 999;
 }
 /* Fim da estilização do menu dropdown */
-
 /* Conteudo */
 #AreaProfessores{
     width: inherit;
-    height: 700px;
-    background-color: #000000;
+    height: 800px;
 }
 #Professor1{
     width: inherit;
     height: 50%;
-    background-color: #ff0000;
+
 }
 #Professor2{
     width: inherit;
     height: 50%;
-    background-color: #2f00ff;
+
+    
 }
 #FotoProfessor1{
     width: 35%;
     height: 100%;
-    background-color: blueviolet;
     border-radius: 90%;
     float: left;
+    background-image: url(Captura\ de\ tela\ 2021-02-12\ 144508.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #TextoProfessor1{
     width: 65%;
-    height: 50%;
-    background-color: #ffee00;
+    height: 100%;
     float: left;
+    padding-top: 60px;
+    padding-top: 150px;
 }
 #FotoProfessor2{
     width: 35%;
     height: 100%;
-    background-color: blueviolet;
     border-radius: 90%;
-    float: left;
+    float:right;
+    background-image: url(imagens/kauan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #TextoProfessor2{
     width: 65%;
-    height: 50%;
-    background-color: #ffee00;
+    height: 100%;
+    float: right;
+    padding-top: 60px;
+    padding-top: 170px;
+}
+p{
+    color: white;
+    font-family: monospace;
+    font-size: 21px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* rodapé */
+#rodape{
+    width: 100%;
+    height: 75px;
+    background-color: #a4bad2;
+
+}
+#redesWhats img{
+    width:  75px;
+    height: inherit;
     float: left;
+    margin-left: 25px;
+}
+#redesInsta img{
+    width: 70px;
+    height: inherit;
+    float: left;
+    margin-top: 3px;
+    
+}
+#Direitos{
+    width: 600px;
+    height: inherit;
+    margin-left: 450px;
+    align-items: center;
+    padding-top: 25px;
+}
+#logoRodape{
+    width: 65px;
+    height: inherit;
+    float: right;
+    background-image: url(imagens/logo-sem-fundo-p.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }

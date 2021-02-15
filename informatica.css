@@ -126,11 +126,21 @@ li:hover>ul li{
     height: 150px;
     color: white;
 }
+p{
+    color: white;
+    font-family: monospace;
+    font-size: 21px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+}
 /* Adicionando video */
 #Video{
     height: 600px;
     width: inherit;
     margin-top: 50px;
+    
 }
 iframe{
     width: inherit;
