@@ -77,11 +77,11 @@ a{
 
 li:hover{
     background-color: #a4bad2;
-    transition: 2s;
+    transition: .3s;
 }
 ul li:hover{
     background-color: #a4bad2;
-    transition: 2s;
+    transition: .3s;
 }
 ul li{
    opacity: 0px;
@@ -90,8 +90,8 @@ ul li{
 li:hover>ul li{
     opacity: 10;
     visibility: visible;
-    position: absolute;
-    z-index: 999;
+    position: relative; /* O PROBLEMA ERA SÓ A POSIÇÃO QUE O ELEMENTO ASSUMIA*/
+    z-index: 999;       /* EU NÃO LEMBRAVA COMO USAVA, MAS AGORA SIM*/
 }
 /* Fim da estilização do menu dropdown */
 
