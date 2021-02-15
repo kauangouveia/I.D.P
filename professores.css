@@ -20,10 +20,6 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-.imagem{
-    width: 100%;
-    height: inherit;
-}
 #barrafinal{
     background-color: #a4bad2;
 }
@@ -90,53 +86,64 @@ ul li:hover{
 ul li{
    opacity: 0px;
    visibility: hidden;
-   
-   
 }
 li:hover>ul li{
     opacity: 10;
     visibility: visible;
+    position: absolute;
+    z-index: 999;
 }
 /* Fim da estilização do menu dropdown */
 
-/* Conteudo */
-#FundoSite{
+/* Estilizando sessão de professores */
+#Professores{
+    width: inherit;
+    height: 800px;
+    background-color: #001854;
+}
+#Professor1{
+    width: inherit;
     height: 400px;
-    width: 100%;
-    background-image: url(imagens/software-1366450-pxhere.com_.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    
 }
-
-#TextoCursos{
-    color: white;
+#Professor2{
     width: inherit;
-    height: 250px;
+    height: 400px;
 }
-#TituloCSSHTML{
-    width: inherit;
-    height: 60px;
-    color: white;
-    padding-left: 40%;  
-}
-#TextoVideo{
-    padding-top: 25px;
-    width: inherit;
-    height: 150px;
-    color: white;
-}
-/* Adicionando video */
-#Video{
-    height: 600px;
-    width: inherit;
-    margin-top: 50px;
-}
-iframe{
-    width: inherit;
+#FotoProfessor1{
+    width: 35%;
     height: inherit;
+    background-color: #ffffff;
+    border-radius: 100%;
+    /* background-image: url(Captura\ de\ tela\ 2021-02-12\ 144508.png); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
 }
-
+#TextoProfessor1{
+    float: left;
+    width: 65%;
+    height: inherit;
+    background-color: #b700ff;
+    padding-top: 120px;
+}
+#FotoProfessor2{
+    width: 35%;
+    height: inherit;
+    background-color: #ffffff;
+    border-radius: 100%;
+    /* background-image: url(Captura\ de\ tela\ 2021-02-12\ 144508.png); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+}
+#TextoProfessor2{
+    float: left;
+    width: 65%;
+    height: inherit;
+    background-color: #ff00aa;
+    padding-top: 120px;
+}
 /* rodapé */
 #rodape{
     width: 100%;

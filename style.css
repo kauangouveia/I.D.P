@@ -4,29 +4,30 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#001854;
+    background-color:#ff00ff;
 }
 .container{
     width: 100%;
     height: auto;
-    background-color: green;
+    background-color: rgb(238, 255, 0);
 }
 
 #containerMenu{
-    background-color: #a4bad2;
+    background-color: #00ff15;
 }
 .conteudo{
     width: 1300px;
     height: auto;
     margin-right: auto;
-    margin-left: auto;;
+    margin-left: auto;
+    background-color: black;
 }
 #sessao{
-    background-color: #001854;
+    background-color: #00fff2;
 }
 
 #barrafinal{
-    background-color: #a4bad2;
+    background-color: #ff0000;
 }
 /* Estilizando menu */
 #BarraMenu{
