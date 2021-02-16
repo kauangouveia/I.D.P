@@ -24,7 +24,7 @@ body{
     width: 100%;
     height: inherit;
 }
-#barrafinal{
+#BarraRodape{
     background-color: #a4bad2;
 }
 /* Estilizando menu */
@@ -102,11 +102,11 @@ li:hover>ul li{
 /* Fim da estilização do menu dropdown */
 /* conteudo */
 #SobreNós{
-    height: 700px;
+    height: 900px;
     width: inherit;
     background-color: #001854;
 }
-#teste{
+#InfoEmpresa{
     height: 100%;
     width: inherit;
 
@@ -132,8 +132,6 @@ p{
     font-size: 21px;
     text-align: justify;
     color: rgb(255, 255, 255);
-    /* padding-left: 20px;
-    padding-right: 20px; */
     padding-top: 170px;
 }
 /* rodapé */

@@ -24,7 +24,7 @@ body{
     width: 100%;
     height: inherit;
 }
-#barrafinal{
+#BarraRodape{
     background-color: #a4bad2;
 }
 /* Estilizando menu */
@@ -101,11 +101,11 @@ li:hover>ul li{
 
 /* Conteudo */
 #FundoSite{
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-image: url(imagens/fundoInformatica.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
 }
 
@@ -134,6 +134,15 @@ p{
     color: rgb(255, 255, 255);
     padding-left: 20px;
     padding-right: 20px;
+}
+h1{ 
+    font-family: Impact, fantasy;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding-right: auto;
+    padding-left: auto;
 }
 /* Adicionando video */
 #Video{

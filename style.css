@@ -26,7 +26,7 @@ body{
     background-color: #001854;
 }
 
-#barrafinal{
+#BarraRodape{
     background-color: #a4bad2;
 }
 /* Estilizando menu */
@@ -36,7 +36,7 @@ body{
     background-color: #a4bad2;
     /*display: flex;*/
     /* position: fixed; */
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     z-index: 999;
     
     

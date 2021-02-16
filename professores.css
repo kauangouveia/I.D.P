@@ -20,7 +20,7 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-#barrafinal{
+#BarraRodape{
     background-color: #a4bad2;
 }
 /* menu */
@@ -99,7 +99,7 @@ li:hover>ul li{
 /* Conteudo */
 #AreaProfessores{
     width: inherit;
-    height: 800px;
+    height: 900px;
 }
 #Professor1{
     width: inherit;
